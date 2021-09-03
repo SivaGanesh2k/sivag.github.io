@@ -1,0 +1,178 @@
+nav {
+    font-family: Poppins;
+    margin-top: 20px;
+}
+
+.nav-link:hover {
+    color: #eee;
+}
+
+nav ul li {
+    padding-left: 30px;
+}
+
+.hero p {
+    font-family: Poppins;
+    line-height: 28px;
+    padding-top: 150px;
+    color: #eee;
+}
+
+.images {
+    padding-top: 50px;
+}
+
+.resume p {
+    font-family: Poppins;
+    line-height: 28px;
+    padding-top: 100px;
+    color: #eee;
+}
+
+.resume button a {
+    text-decoration: none;
+    color: #121212;
+}
+
+.col {
+    color: #eee;
+}
+
+#works {
+    padding-top: 100px;
+}
+
+.btn {
+    margin-top: 20px;
+    font-family: Poppins;
+}
+
+.contact-form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    border: solid #eee;
+}
+
+form label {
+    padding-top: 10px;
+    font-family: Poppins;
+    color: #eee;
+}
+
+form {
+    padding: 20px 20px;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-text {
+    margin-bottom: 50px;
+}
+
+/* About page css */
+
+.back-btn a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.back-btn a:hover {
+    color: #eee;
+}
+
+.about-me {
+    padding-top: 100px;
+    font-family: Poppins;
+    line-height: 28px;
+    color: #eee;
+}
+
+.about-me button a {
+    text-decoration: none;
+    color: #121212;
+}
+
+.abt-footer-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: Poppins;
+    line-height: 28px;
+    color: #eee;
+
+}
+
+.footer {
+    color: #eee;
+    font-family: Poppins;
+    line-height: 28px;
+}
+
+.social-links a {
+    color: #eee;
+    font-size: 30px;
+}
+
+.social-links a:hover {
+    color: #eee;
+}
+
+.fa-linkedin {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.social-links {
+    margin-bottom: 50px;
+}
+
+/* Tesla page css */
+
+.tesla-head{
+    padding-top: 100px;
+    font-family: Poppins;
+    line-height: 28px;
+    color: #eee;
+}
+
+.tesla {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tesla img {
+    border-radius: 10px;
+}
+
+.tesla-footer {
+    color: #eee;
+    font-family: Poppins;
+    line-height: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Contasy 11 css */
+
+.contasy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Thankyou page css */
+
+.thankyou p {
+    color: #eee;
+    font-family: Poppins;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.thankyou {
+    margin-top: 200px;
+}
+
+

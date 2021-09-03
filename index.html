@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siva Portfolio</title>
+
+  <link rel="stylesheet" href="./css/all.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+</head>
+
+<body class="bg-dark">
+
+  <!--- Navigation Bar --->
+
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#toggleNav"
+        aria-controls="toggleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="toggleNav">
+        <ul class="navbar-nav text-center ms-auto">
+          <li><a href="./about.html" class="nav-link">About</a></li>
+          <li><a href="#works" class="nav-link">Works</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!--- Hero Section --->
+
+  <div class="container hero">
+    <p>Hi there,<br>I’m Sivaganesh<br>A self-taught UI/UX designer based in TamilNadu, India.</p>
+  </div>
+
+  <!--- Works Section --->
+
+  <div class="container">
+    <div class="row gy-4" id="works">
+      <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-6"><a href="./project-tesla.html"><img
+            src="./assets/images/tesla-cover.svg" alt=""></a></div>
+
+      <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-6"><a href="./project-droid-repo.html"><img
+            src="./assets/images/droid-repo.svg" alt=""></a></div>
+
+      <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-6"><a href="./project-contasy11.html"><img
+            src="./assets/images/contasy11.svg" alt=""></a></div>
+
+      <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-6"><a href="./project-studpay.html"><img
+            src="./assets/images/studpay.svg" alt=""></a></div>
+    </div>
+  </div>
+
+  <!--- Contact section --->
+
+  <div class="container" id="contact">
+    <div class="resume">
+      <p>If you’re looking for,<br>A young and active employee for your team,<br>Then check my about section and click
+        the my resume button to download my resume.</p>
+
+      <button type="button" class="btn btn-light" data-bs-toggle="button" autocomplete="off"><a href="/index.html">My
+          resume</a></button>
+
+      <div class="container contact-form">
+        <p class="text-center footer-text">Thanks for scrolling !<br>Feel free contact us through the contact form.</p>
+
+        <form class="row g-3" action="contactform.php" method="post">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" name="firstname" class="form-control" id="firstName" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" name="lastname" class="form-control" id="lastName" required>
+          </div>
+
+          <div class="col-md-12">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" name="email" class="form-control" id="emailInfo" required>
+          </div>
+
+          <div class="col-md-12">
+            <label for="comments" class="form-label">Yours message</label>
+            <textarea type="text" name="message" class="form-control" id="comments" rows="3" required></textarea>
+          </div>
+
+          <div class="col-md-12">
+            <button type="submit" name="submit" class="btn btn-light">Submit</button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--- Footer --->
+
+  <div class="container text-center footer">
+    <p>My social links</p>
+  </div>
+
+  <div class="container social-links text-center">
+
+    <a href="https://behance.net/sivaganesh2k" target="_blank"><i class="fab fa-behance-square"></i></a>
+    <a href="https://www.linkedin.com/in/sivaganesh1915" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://dribbble.com/sivaganesh1915" target="_blank"><i class="fab fa-dribbble-square"></i></a>
+
+  </div>
+
+
+
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
