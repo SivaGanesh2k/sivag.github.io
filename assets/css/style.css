@@ -70,6 +70,9 @@ div img {
 }
 
 .footer-text {
+    font-family: Poppins;
+    color: #eee;
+    line-height: 28px;
     margin-bottom: 20px;
 }
 
@@ -98,15 +101,6 @@ div img {
 .about-me button a {
     text-decoration: none;
     color: #121212;
-}
-
-.abt-footer-text {
-    padding-top: 100px;
-    padding-bottom: 20px;
-    font-family: Poppins;
-    line-height: 28px;
-    color: #eee;
-
 }
 
 .footer {
