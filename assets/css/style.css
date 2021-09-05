@@ -127,14 +127,14 @@ div img {
     margin-bottom: 50px;
 }
 
-.line {
-    margin-top: 100px;
-}
-
 .abt-footer {
     font-family: Poppins;
     color: #eee;
     line-height: 28px;
+    padding-top: 50px;
+}
+
+.abt-footer p {
     padding-top: 50px;
 }
 
