@@ -70,7 +70,11 @@ div img {
 }
 
 .footer-text {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.mail-btn {
+    padding-bottom: 20px;
 }
 
 /* About page css */
